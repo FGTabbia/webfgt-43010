@@ -99,6 +99,11 @@ main {
 
 /*--------hero---------*/
 
+.titulo-noticia{
+    color: aliceblue;
+    text-align: center;
+}
+
 .hero{
     background: rgb(54,0,0);
     background: linear-gradient(180deg, rgb(41, 41, 41) 20%, rgba(0,0,0,1) 80%);
