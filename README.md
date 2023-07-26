@@ -1,0 +1,1 @@
+Web en desarollo de periodismo de videojuegos 
