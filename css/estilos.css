@@ -95,14 +95,16 @@ header {
   position: absolute;
   color: aliceblue;
   bottom: 59px;
-  left: 5px; }
+  left: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; }
 
 .hero-item-bot h3 {
   position: absolute;
   color: aliceblue;
   bottom: 10px;
   left: 3px;
-  margin-inline-start: 3px; }
+  margin-inline-start: 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; }
 
 .hero-item-bot-1 h2 {
   position: absolute;
