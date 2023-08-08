@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    
+}
+@font-face {
+    font-family:"Fedora";
+    src: url(../font/jojofont/Fedora.ttf);
+    font-weight: bold;
+    font-style:italic;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: medium !important;
+}
+
+main {
+    background: rgb(3,12,33);
+    background: linear-gradient(180deg, rgba(3,12,33,1) 9%, rgba(0,0,0,1) 46%, rgba(8,34,76,1) 84%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    color: white;
+}
+
+.page{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: aliceblue;
+}
+
+.position {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+.position a img{
+    width:50px;
+}
