@@ -1,0 +1,19 @@
+%shadow{
+    -webkit-box-shadow: 0px 2px 25px -9px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 2px 25px -9px rgba(255,255,255,1);
+    box-shadow: 0px 2px 25px -9px rgba(255,255,255,1);
+}
+
+%shadowblack{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+@mixin flex ($flex, $justify, $direction, $wrap){
+    display: $flex;
+    justify-content:$justify;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
