@@ -11,6 +11,13 @@
 
 }
 
+%blur{
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
 @mixin flex ($flex, $justify, $direction, $wrap){
     display: $flex;
     justify-content:$justify;
