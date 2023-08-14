@@ -24,3 +24,15 @@
     flex-direction: $direction;
     flex-wrap: $wrap;
 }
+
+%title {
+        background-color: #4f4f4f;
+        padding: 5px;
+        justify-self:normal;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        font-weight: bold;
+        font-size: 1.5em;
+        text-shadow: 3px 2px 3px rgba(8, 77, 207, 1);
+}
