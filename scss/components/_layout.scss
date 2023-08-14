@@ -259,12 +259,12 @@
     h2{
         color: #ffffff;
         text-align: center;
-        background-color: rgb(79, 79, 79);
-        border: 3px;
-        border-color: #000000;
-        padding: 5px;
+        background-color: rgba(7, 100, 171, 0.521);
+        border: 3px solid rgb(17, 36, 57);
+        padding: 0px;
         padding-left: 15px;
         padding-right: 15px;
+        @extend %title
     }
 }
 .populares{
@@ -277,10 +277,12 @@
     h2{
         color: #ffffff;
         text-align: center;
-        background-color: rgb(79, 79, 79);
-        padding: 5px;
+        background-color: rgba(7, 100, 171, 0.521);
+        border: 3px solid rgb(17, 36, 57);
+        padding: 0px;
         padding-left: 15px;
         padding-right: 15px;
+        @extend %title
     }
 }
 .topobj{

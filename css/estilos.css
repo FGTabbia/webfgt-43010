@@ -48,9 +48,10 @@ main {
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out; }
 
-.griditem1 a, .analisis1 {
-  background-color: #4f4f4f;
-  padding: 5px;
+.griditem1 a, .analisis1, .esperados h2, .populares h2 {
+  background-color: rgba(7, 100, 171, 0.521);
+  border: 3px solid #112439;
+  padding: 0px;
   justify-self: normal;
   text-decoration: none;
   color: #ffffff;
@@ -279,10 +280,9 @@ main {
   .esperados h2 {
     color: #ffffff;
     text-align: center;
-    background-color: #4f4f4f;
-    border: 3px;
-    border-color: #000000;
-    padding: 5px;
+    background-color: rgba(7, 100, 171, 0.521);
+    border: 3px solid #112439;
+    padding: 0px;
     padding-left: 15px;
     padding-right: 15px; }
 
@@ -296,8 +296,9 @@ main {
   .populares h2 {
     color: #ffffff;
     text-align: center;
-    background-color: #4f4f4f;
-    padding: 5px;
+    background-color: rgba(7, 100, 171, 0.521);
+    border: 3px solid #112439;
+    padding: 0px;
     padding-left: 15px;
     padding-right: 15px; }
 
