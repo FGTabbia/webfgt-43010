@@ -1,6 +1,9 @@
-@media screen and (max-width:1256px) {
+@media screen and (max-width:1279px) {
     .topcontenedor{
         flex-direction: column;
+    }
+    .title-top{
+        display: none;
     }
 }
 
@@ -64,6 +67,13 @@
         left:3px;
         margin-inline-start: 3px;
     }
+    .article-card {
+        width: 460px;
+        height: 180px;
+    }
+    .center{
+        height: 180px;
+    }
 }
 
 @media screen and (max-width:613px) {
@@ -102,19 +112,19 @@
         left:3px;
         margin-inline-start: 3px;
     }
-    .topobj img{
-        width: 310px;
-        height: 100px;
-        object-fit: cover;
-        
+    .top-item {
+        img{
+            width: 310px;
+            height: 100px;
+        }
     }
 
-    .gridobj{
+    .top-item{
         width: 310px;
         height: 200px;
         }
 
-    .gridobj img {
+    .top-item img {
         width: 310px;
         height: 100px;
         object-fit: cover;
@@ -125,29 +135,55 @@
     }
 }
 
+@media screen and (max-width:518px){
+    .article-card {
+        width: 360px;
+        height: 120px;
+    }
+
+    .center{
+        height: 120px;
+    }
+    .griditem1 {
+        grid-template-rows: 48px 120px 120px;
+    }
+}
+
 @media screen and (max-width:484px){
     header nav ul {
         flex-direction: column;
     }
     
-    .tarjetanew img {
+    .tarjetanew{
+        width: 230px;
+        height: 290px;
+        object-fit: cover;
+    }
+
+    .tarjetanew a img{
         width: 230px;
         height: 230px;
         object-fit: cover;
     }
 
-    .topobj img{
+    .tarjetanew{
+        h2{
+            font-size: 15px;
+        }
+    }
+
+    .top-item img{
         width: 210px;
         height: 100px;
         object-fit: cover;
         
     }
-    .gridobj{
+    .top-item{
         width: 210px;
         height: 201px;
         }
 
-    .gridobj img {
+    .top-item img {
         width: 210px;
         height: 100px;
         object-fit: cover;
@@ -176,13 +212,30 @@
     .hero-item-bot-1 h2{
         position: absolute;
         color: aliceblue;
-        bottom: 180px;
+        bottom: 191px;
         left: 5px;
     }
     .hero-item-bot-1 h3{
         bottom: 10px;
         left:3px;
         margin-inline-start: 3px;
+    }
+
+    .article-card {
+        width: 300px;
+        height: 100px;
+    }
+
+    .center{
+        height: 100px;
+    }
+
+    .griditem1 {
+        grid-template-rows: 48px 100px 100px;
+    }
+
+    .content{
+        padding: 0px 0px 0px 0px;
     }
 
 }
