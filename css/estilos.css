@@ -331,6 +331,20 @@ footer {
     width: 30px;
     height: 30px; }
 
+@media screen and (max-width: 1409px) {
+  .flex-new {
+    flex-direction: column; }
+  .new-2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .new-3 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap; } }
+
 @media screen and (max-width: 1279px) {
   .topcontenedor {
     flex-direction: column; }
@@ -487,6 +501,32 @@ footer {
   .center {
     height: 100px; }
   .griditem1 {
-    grid-template-rows: 48px 100px 100px; }
-  .content {
-    padding: 0px 0px 0px 0px; } }
+    grid-template-rows: 48px 100px 100px; } }
+
+.flex-new {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+  gap: 40px;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 50px; }
+
+.new-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  border-top: 1px solid white;
+  padding-top: 20px; }
+
+.new-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+
+.new-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }

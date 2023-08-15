@@ -1,3 +1,23 @@
+@media screen and (max-width:1409px) {
+    .flex-new{
+        flex-direction: column;
+    }
+    .new-2{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .new-3{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
 @media screen and (max-width:1279px) {
     .topcontenedor{
         flex-direction: column;
@@ -232,10 +252,6 @@
 
     .griditem1 {
         grid-template-rows: 48px 100px 100px;
-    }
-
-    .content{
-        padding: 0px 0px 0px 0px;
     }
 
 }
