@@ -141,13 +141,21 @@
 
     .top-item{
         width: 310px;
-        height: 200px;
+        height: 100px;
         }
 
     .top-item img {
         width: 310px;
         height: 100px;
         object-fit: cover;
+    }
+
+    .top-item-bot{
+        h2{
+            bottom: 2px;
+            font-size: 80px;
+            right:1px;
+        }
     }
 
     header{
@@ -200,7 +208,7 @@
     }
     .top-item{
         width: 210px;
-        height: 201px;
+        height: 100px;
         }
 
     .top-item img {
