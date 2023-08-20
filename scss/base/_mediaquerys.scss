@@ -19,6 +19,18 @@
 }
 
 @media screen and (max-width:1279px) {
+
+    .bg{
+        padding-top: 90px !important;
+        gap: 20px !important;
+        padding-bottom: 1630px;
+    }
+
+    .flex-card-1{
+        flex-direction: column !important;
+        gap: 2%;
+    }
+
     .topcontenedor{
         flex-direction: column;
     }
@@ -183,6 +195,28 @@
         flex-direction: column;
     }
     
+    .blog-card{
+        width: 300px !important;
+        height: 130px !important;
+    }
+
+    .bg{
+        padding-bottom: 900px !important;
+    }
+
+    .text-overlay{
+        h2{
+            font-size: 12px;
+        }
+        p{
+            font-size: 12px;
+            width: auto !important;
+            margin: 2px !important;
+        }
+        height: 75% !important;
+        top: 35% !important;
+    }
+
     .tarjetanew{
         width: 230px;
         height: 290px;
