@@ -336,3 +336,10 @@
         object-fit: cover;
     }
 }
+
+.preg{
+    display: block;
+    text-align: center;
+    padding-top: 138px;
+    @extend %title;
+}

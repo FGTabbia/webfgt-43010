@@ -48,7 +48,7 @@ main {
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out; }
 
-.griditem1 a, .analisis1, .title-top, .subtitle-top {
+.griditem1 a, .analisis1, .title-top, .subtitle-top, .preg {
   background-color: rgba(7, 100, 171, 0.521);
   border: 3px solid #112439;
   padding: 0px;
@@ -346,6 +346,11 @@ main {
   height: 100px;
   object-fit: cover; }
 
+.preg {
+  display: block;
+  text-align: center;
+  padding-top: 138px; }
+
 .article-core {
   padding-top: 123px;
   color: black; }
@@ -527,12 +532,12 @@ footer {
     flex-direction: column; }
   .blog-card {
     width: 300px !important;
-    height: 130px !important; }
+    height: 180px !important; }
   .bg {
-    padding-bottom: 900px !important; }
+    padding-bottom: 1150px !important; }
   .text-overlay {
     height: 75% !important;
-    top: 35% !important; }
+    top: 50% !important; }
     .text-overlay h2 {
       font-size: 12px; }
     .text-overlay p {
