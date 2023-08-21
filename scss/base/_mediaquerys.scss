@@ -166,8 +166,11 @@
     .top-item-bot{
         h2{
             bottom: 2px;
-            font-size: 80px;
-            right:1px;
+            font-size: 60px;
+            right:3px;
+        }
+        h3{
+            font-size: 15px;
         }
     }
 
@@ -195,6 +198,10 @@
         flex-direction: column;
     }
     
+    .bg{
+        padding-top:130px !important;
+    }
+
     .blog-card{
         width: 300px !important;
         height: 180px !important;
@@ -244,6 +251,20 @@
         width: 210px;
         height: 100px;
         }
+    
+    .top-item-bot{
+        h2{
+            font-size: 40px;
+            bottom: 53px;
+            right: 8px;
+
+        }
+        h3{
+            font-size: 15px;
+
+        }
+        }
+
 
 
     .top-item img {
@@ -297,5 +318,10 @@
     .griditem1 {
         grid-template-rows: 48px 100px 100px;
     }
+
+}
+
+.article-core{
+    padding-top: 140px;
 
 }
